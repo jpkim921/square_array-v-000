@@ -6,8 +6,9 @@ def square_array(array)
 
 
   array.each do |x|
-    binding.pry
+    
     ans_array << x**2
+    binding.pry
   end
   ans_array
 end
