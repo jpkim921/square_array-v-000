@@ -1,8 +1,12 @@
-require 'pry
-'
+require 'pry'
+
 def square_array(array)
   # your code here
-
+  ans_array = []
+  array.each do |x|
+    ans_array << x**2
+  end
+  ans_array
 end
 
 
