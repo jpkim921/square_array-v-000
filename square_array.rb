@@ -3,6 +3,8 @@ require 'pry'
 def square_array(array)
   # your code here
   ans_array = []
+  binding.pry
+
   array.each do |x|
     ans_array << x**2
   end
